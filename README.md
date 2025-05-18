@@ -8,6 +8,7 @@
 1. [PyxelからFastAPIへのゲーム状態送信システム設計](https://github.com/pgst/pyxel_fastapi_open5e/blob/main/documents/Pyxel%E3%81%8B%E3%82%89FastAPI%E3%81%B8%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E7%8A%B6%E6%85%8B%E9%80%81%E4%BF%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88.md)
 1. [PyxelからFastAPIへのデータ送信パフォーマンス最適化手法](https://github.com/pgst/pyxel_fastapi_open5e/blob/main/documents/Pyxel%E3%81%8B%E3%82%89FastAPI%E3%81%B8%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E9%80%81%E4%BF%A1%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%9C%80%E9%81%A9%E5%8C%96%E6%89%8B%E6%B3%95.md)
 1. [ゲーム状態管理のための効率的なデータ構造設計](https://github.com/pgst/pyxel_fastapi_open5e/blob/main/documents/%E3%82%B2%E3%83%BC%E3%83%A0%E7%8A%B6%E6%85%8B%E7%AE%A1%E7%90%86%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E5%8A%B9%E7%8E%87%E7%9A%84%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E6%A7%8B%E9%80%A0%E8%A8%AD%E8%A8%88.md)
+1. [Open5e APIデータの日本語翻訳手法](https://github.com/pgst/pyxel_fastapi_open5e/blob/main/documents/Open5e%20API%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%BF%BB%E8%A8%B3%E6%89%8B%E6%B3%95.md)
   
 ## その他資料
 [Pyxelチートシート](https://github.com/pgst/pyxel_fastapi_open5e/blob/main/documents/Pyxel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88%202025-02-11%20001.pdf)
