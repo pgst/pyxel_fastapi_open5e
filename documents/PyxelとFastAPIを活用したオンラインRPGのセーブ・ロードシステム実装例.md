@@ -167,7 +167,7 @@ def validate_save(data):
 
 ```python
 def generate_delta(old, new):
-    """JSON差分検出（検索結果[^6]を参考）"""
+    """JSON差分検出（検索結果[^82]を参考）"""
     d = {}
     for key in new:
         if key not in old or old[key] != new[key]:
@@ -256,4 +256,6 @@ PyxelとFastAPIを組み合わせたセーブシステムは、暗号化通信�
 [^9]: https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1038118705
 
 [^10]: https://qiita.com/hoto17296/items/5624231b8d44b8f1275e
+
+[^82]: https://qiita.com/yoya/items/a1c8c416a7399a7e7096
 

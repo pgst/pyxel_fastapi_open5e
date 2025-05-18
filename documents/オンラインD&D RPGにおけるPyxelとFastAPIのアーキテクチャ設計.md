@@ -12,7 +12,7 @@
     - パーティクル効果と簡易アニメーションの実装[^11]
 2. **入力処理**
     - キーボード/ゲームパッド入力の管理（最大4プレイヤー対応）[^12]
-    - 仮想コントローラの実装（モバイルデバイス対応）[^16]
+    - 仮想コントローラの実装（モバイルデバイス対応）[^82]
     - 入力遅延補正アルゴリズムの適用[^3]
 3. **クライアント側ゲームロジック**
     - キャラクター移動の予測処理（クライアントサイド予測）[^7]
@@ -35,7 +35,7 @@
     - メッセージブローカー（Redis Pub/Sub）の統合[^10]
 3. **D\&Dルールエンジン**
     - SRD 5.1ルールセットの実装[^15]
-    - ダイスロールアルゴリズム（Cryptographically Secure）[^6]
+    - ダイスロールアルゴリズム（Cryptographically Secure）~~[^6]~~
     - モンスターAIの意思決定システム[^4]
 4. **セキュリティ管理**
     - JWT認証によるプレイヤー認可[^14]
@@ -99,7 +99,7 @@ async def purchase_item(item: ItemRequest):
 
 ### ネットワーク最適化
 
-- **Delta Encoding**: 前フレームからの変更差分のみ送信[^7]
+- **Delta Encoding**: 前フレームからの変更差分のみ送信~~[^7]~~
 - **優先度キューイング**: 重要イベント（戦闘）を優先送信[^10]
 - **予測補間**: クライアント側移動予測アルゴリズム[^4]
 
@@ -198,7 +198,7 @@ PyxelとFastAPIを組み合わせたアーキテクチャは、レトロゲー�
 
 [^5]: https://qiita.com/raisack8/items/6bd25f34db45e3fdab31
 
-[^6]: https://make-muda.net/2017/10/5645/
+~~[^6]: https://make-muda.net/2017/10/5645/~~
 
 [^7]: https://apidog.com/jp/blog/using-websocket-with-fastapi/
 
@@ -349,4 +349,6 @@ PyxelとFastAPIを組み合わせたアーキテクチャは、レトロゲー�
 [^80]: https://zenn.dev/karaage0703/articles/ead48a3cd408b4
 
 [^81]: https://gomafree-tech.com/?p=3588
+
+[^82]: https://github.com/kitao/pyxel/blob/main/docs/README.ja.md?plain=1
 

@@ -31,7 +31,7 @@ class StateDiffGenerator:
 ```
 
 
-## Protocol Buffersによるシリアライズ最適化（検索結果[^6]参照）
+## Protocol Buffersによるシリアライズ最適化（Protocol Buffersの公式ドキュメント参照）
 
 ```protobuf
 syntax = "proto3";
@@ -76,7 +76,7 @@ def process_update(data):
 ```
 
 
-## 圧縮アルゴリズム統合（検索結果[^7]の画像処理発想を応用）
+## 圧縮アルゴリズム統合（Zstandard圧縮ライブラリの活用）
 
 ```python
 import zstandard as zstd
@@ -214,7 +214,7 @@ def auto_scale():
 ```
 
 
-これらの手法を組み合わせることで、検索結果[^2]の差分転送理論と[^6]の最適化フレームワーク概念を現実のゲーム開発に適用可能です。特にProtocol BuffersとZstandardの組み合わせは、検索結果[^7]の大量画像処理で得られた知見をネットワーク転送に応用した革新的なアプローチと言えます。実際の実装では、パフォーマンスプロファイリング結果に基づいて最適化手法を動的に選択するAdaptive Optimization Systemの導入が推奨されます。
+これらの手法を組み合わせることで、検索結果[^2]の差分転送理論と最適化フレームワーク概念を現実のゲーム開発に適用可能です。特にProtocol BuffersとZstandardの組み合わせは、ネットワーク転送のための革新的なアプローチと言えます。実際の実装では、パフォーマンスプロファイリング結果に基づいて最適化手法を動的に選択するAdaptive Optimization Systemの導入が推奨されます。
 
 <div style="text-align: center">⁂</div>
 
@@ -228,9 +228,7 @@ def auto_scale():
 
 [^5]: https://zenn.dev/topics/パイソン?order=alltime\&page=81
 
-[^6]: https://7net.omni7.jp/detail/1106235728
-
-[^7]: https://www.cresco.co.jp/blog/entry/11916.html
+[^6]: https://developers.google.com/protocol-buffers/docs/overview
 
 [^8]: https://pycon.jp/2020/timetable/?id=202389
 
