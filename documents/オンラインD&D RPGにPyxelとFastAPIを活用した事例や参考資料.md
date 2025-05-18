@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# オンラインD\&D RPGにPyxelとFastAPIを活用した事例や参考資料はありますか
+# オンラインD\&D RPGにPyxelとFastAPIを活用した事例や参考資料
 
 以下は、PyxelとFastAPIを活用したオンラインD\&D RPG開発に関する事例と参考資料の詳細な分析です：
 
